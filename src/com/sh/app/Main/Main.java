@@ -19,6 +19,9 @@ public class Main {
 		new Bird().fly();
 		new Snake().crawl();
 	}
+		public void abc(){
+			
+		}
 	public void test() {
 		System.out.println("Main#test");
 		System.out.println("Main#test");
