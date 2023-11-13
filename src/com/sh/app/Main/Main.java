@@ -14,5 +14,7 @@ public class Main {
 		new Cat().jump();
 		new Tiger().stack();
 	}
-
+	public void test() {
+		System.out.println("Main#test");
+	}
 }
