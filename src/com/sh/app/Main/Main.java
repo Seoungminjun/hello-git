@@ -1,7 +1,9 @@
 package com.sh.app.Main;
 
+import com.sh.app.animal.Bird;
 import com.sh.app.animal.Cat;
 import com.sh.app.animal.Dog;
+import com.sh.app.animal.Snake;
 import com.sh.app.animal.Tiger;
 
 public class Main {
@@ -13,6 +15,8 @@ public class Main {
 		new Dog().bark();
 		new Cat().jump();
 		new Tiger().stack();
+		new Bird().fly();
+		new Snake().crawl();
 	}
 
 }
